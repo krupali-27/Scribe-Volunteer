@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>handicap dashboard</title>
+    <link rel="stylesheet" href="handicapdashboard.css">
+</head>
+<body>
+    <?php
+include_once('header.html');?>
+    <div id="sidediv">
+        <div id="imgdiv">
+            <img src="userprofile.png" alt="ueserprofile">
+        </div>
+        <div id="detailsdiv">
+            
+                <p class="insidepara1">Name:</p>
+                <p class="insidepara1">Contact Number:</p>
+                <p class="insidepara1">Email:</p>
+            
+        </div>   
+    </div>
+    <div id="maindiv">
+        <div id="formdiv">
+            <div id="formpara"><h1>Upload Schedule</h1></div>
+             <form>
+                
+                    <table cellspacing="10px" cellpading="10px">
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" id="name" placeholder="enter your name" autofocus></td>
+                            <td><label for="exd">Exam Date:</label></td>
+                            <td><input type="date" id="exd" required></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="excen">Exam Center:</label></td>
+                            <td><textarea rows="3" columns="30" placeholder="enter whole address of exam center including city,state" id="excn" required></textarea></td>
+                            <td><label for="exn">Exam Name:</label></td>
+                            <td><input type="text" id="exn" placeholder="enter exam name" required></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="elcri">Eligibility Criteria:</label></td>
+                            <td><textarea rows="3" columns="30" placeholder="enter all the criteria required to be eligible for exam" id="elcri" required></textarea></td>
+                        </tr>
+
+                    </table> 
+                    <div id="buttondiv">
+                        <input type="submit" value="Upload" class="submit1">
+                        <input type="reset" value="Reset" class="reset1">
+                    </div>
+                </form>
+        </div>    
+        <div id="uploadeddiv">
+            <div id="uploadpara"><h1>Your Uploaded Schedule</h1></div>
+            <div id="insidediv">
+                
+                <table cellspacing="10px" cellpading="10px" class="tab">
+                    <tr>
+                        <td><label id="l1">Name:</label></td>
+                        <td><label id="l2">Exam Center:</label></td>
+                    </tr>
+                    <tr>
+                        <td><label id="l3">Exam Name:</label></td>
+                        <td><label id="l4">Exam Date:</label></td>
+                    </tr>
+                    <tr>
+                        <td><label id="l5">Eligibility Criteria:</label></td>
+                        
+                    </tr>   
+                </table> 
+                <button id="btn1">Pending</button>  
+            </div>   
+        </div>   
+    </div>
+    
+</body>
+</html>

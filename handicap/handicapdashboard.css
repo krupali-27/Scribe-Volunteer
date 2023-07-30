@@ -1,0 +1,175 @@
+body,html
+{
+    background-color:#FFFFFF;
+    height:100%;
+    width:100%;
+}
+#sidediv
+{
+
+    height:100%;
+    width:30%;
+    background-color:#06A3DA;
+    color:white;
+    position:relative;
+    bottom:100px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+    border-radius:1% ;
+    float:left;
+}
+#imgdiv
+{
+    height:30%;
+    width:45%;
+    position:absolute;
+    background-color:#06A3DA;
+    top:40px;
+    left:120px;
+    
+}
+img
+{
+    height:200px;
+    width:200px;
+    margin:auto;
+
+}
+#detailsdiv
+{
+    height:300px;
+    width:300px;
+    position:absolute;
+    top:300px;
+    left:20px;
+    background-color:#06A3DA;
+}
+.insidepara1
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-size:20px;
+    color:white;
+    
+}
+#maindiv
+{
+    height:100%;
+    width:68%;
+    background-color:#06A3DA;
+    position:relative;
+    bottom:100px;
+    float:left;
+    margin-left:10px;
+    border-radius:1% ;
+    text-align:center;
+}
+#formpara h1
+{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    
+    background-color:white;
+    
+}
+#formdiv
+{
+    height:44%;
+    width:72%;
+    background-color:#E1F2F7;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#0a356c;
+    
+    position:absolute;
+    top:10px;
+    
+    left:180px;
+    border-color:white ;
+    border-style:solid;
+    border-width:8px;
+    border-radius:3% ;
+}
+#buttondiv
+{
+    background-color:#E1F2F7;
+    width:40%;
+    position:absolute;
+    left:250px;
+    bottom:3px;
+    height:15%;
+}
+.submit1
+{
+    height:40px;
+    width:120px;
+   
+    border-radius:20px;
+     
+     
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0a356c;
+    color:white;
+}
+.reset1
+{
+    height:40px;
+    width:120px;
+    margin-left:40px; 
+   
+    border-radius:20px; 
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0a356c;
+    background-color:rgb(162, 72, 72);
+    color:white;
+}
+#uploadeddiv
+{
+    height:45%;
+    width:72%;
+    background-color:#E1F2F7;
+    position: relative;
+    top:360px;
+    left:180px;
+    text-align:center;
+    overflow:scroll;
+    border-color:white ;
+    border-style:solid;
+    border-width:8px;
+    border-radius:3% ;
+}
+#uploadpara
+{
+    background-color:white;
+    color:#0a356c;
+    position:sticky;
+    top:0px;
+    
+}
+ 
+.tab
+{
+    width:80%;
+}
+#insidediv
+{
+    text-align:center;
+    background-color:#E1F2F7;
+   border:2px solid white;
+   color:#0a356c;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn1
+{
+    
+    height:40px;
+    width:120px;
+    position: relative;
+    bottom:10px;
+    background-color:rgb(233, 61, 61) ;
+    border-color:white;
+    font-size: 20px;
+    
+    color:white; 
+}
+
